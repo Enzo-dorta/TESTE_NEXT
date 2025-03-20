@@ -1,10 +1,11 @@
 import Image from "next/image";
-import FormularioCad from "../Components/Fomulario";
+import PageLog from "@/Pages/Login/Login";
+import PageCad from "@/Pages/Cadastro/Cadastro";
 
 export default function Home() {
   return (
     <>
-    <FormularioCad/>
+    <PageCad/>
     </>
   );
 }
